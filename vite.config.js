@@ -5,3 +5,6 @@ export default defineConfig({
     plugins: [react()],
     base: "/phuocle-portfolio/",
 });
+// "homepage": "https://something0412.github.io/phuocle-portfolio",
+//     "predeploy": "npm run build",
+//     "deploy": "gh-pages -d dist"
