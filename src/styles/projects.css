@@ -1,0 +1,108 @@
+.projects-page{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    height: fit-content;
+    width: 100vw;
+    justify-content: center;
+}
+.main-projects{
+    display: flex;
+    align-self: center;
+    flex-direction:row;
+    width: 85%;
+    flex-wrap: wrap;
+    gap: 12vh;
+    justify-content: center;
+}
+.project-div{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 20px;
+    padding: 0.5vh;
+    background-color: rgb(250, 248, 242);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.thumbnail img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+.proj-details{
+    flex: 1;
+    padding: 0 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.proj-name{
+    font-size: 2.5vh;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--not-black)
+}
+.proj-desc{
+    flex: 1;
+    font-size: 2vh;
+    font-weight: 500;
+    padding: 0 0 2vh 2vh;
+    color: var(--not-navy);
+}
+.proj-techs{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+.tech{
+    font-size: 1.7vh;
+    font-weight: 600;
+    color: var(--primary-gray);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 7px;
+    border-radius: 10px;
+    width: fit-content;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(255, 255, 255);
+}
+.tech > img{
+    height: 2.5vh;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    justify-content: end;
+    padding: 2.5vh 1vh 1.5vh 0;
+}
+.buttons > a > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 0;
+    height: 4vh;
+    width: fit-content;
+    padding: 0 0.5vh;
+    font-weight: 600;
+    font-size: 1.7vh;
+    font-style: italic;
+    color: var(--not-navy);
+    gap: 0.7vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px;;
+    background-color: #fdd7d3;
+    transition: 0.2 ease;
+}
+.buttons > a > button:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+.buttons > a > button > img{
+    height: 1.7vh;
+    width: 1.7vh;
+}

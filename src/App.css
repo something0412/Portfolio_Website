@@ -1,0 +1,27 @@
+.pages-container{
+  display: flex;
+  flex-direction: column;
+}
+/* breaker */
+.breaker{
+    padding: 70px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    align-self: flex-start;
+}
+.breaker-text{
+    font-weight: bold;
+    color: var(--not-black);
+}
+.hashtag, .breaker-line{
+    color: var(--lighter-red);
+    font-weight: bold;
+}
+.breaker-line{
+    flex: 1;
+    border: 2px solid;
+    margin: 0 20px;
+}

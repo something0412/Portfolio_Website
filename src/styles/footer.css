@@ -1,0 +1,69 @@
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100%;
+    height: 35vh;
+    background-color: var(--primary-beige);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-size: 30px;
+    padding: 30px 0 10px 0;
+    justify-content: space-between;
+}
+.footer-area > .email-div > p, .media-div > p{
+    width: fit-content;
+}
+.email-div, .media-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.email-div > .text{
+    font-size: 2.1vh;
+    font-weight: bold;
+    color: var(--not-black);
+    opacity: 90%;
+}
+.email{
+    font-size: 3.2vh;
+    font-weight: bold;
+    color: var(--not-black);
+    transition: transform 0.05s ease;
+}
+.email:hover{
+    cursor: pointer;
+    transform: scale(1.007);
+    color: black;
+}
+.media-div > .text{
+    font-size: 2.7vh;
+    font-weight: bold;
+    margin-bottom: 2px;
+    opacity: 70%;
+}
+.media-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    opacity: 70%;
+}
+.media-icon:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+.media-icon-container img{
+    height: 5vh;
+    width: 5vh;
+    object-fit: contain;
+}
+.copyright-icon{
+    height: 1.8vh;
+    width: 1.8vh;
+}
+.copyright{
+    font-size: 2.7vh;
+    opacity: 70%;
+}
+
